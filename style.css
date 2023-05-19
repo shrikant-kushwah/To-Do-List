@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(105, 52, 127);
+}
+.conatiner
+{
+    padding: 30px 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.conatiner .box
+{
+    max-width: 100%;
+    display: flex;
+    padding: 20px 30px;
+}
+.conatiner .box .inputbox input
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #f1f3f4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.conatiner .box .btn button
+{
+    padding: 10px 20px;
+    background: #0cc0df;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.conatiner .list
+{
+    padding: 10px 20px;
+    width: 100%;
+}
+.conatiner .list .new_list
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #f1f3f4;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.conatiner .list .new_list .check input
+{
+    border-radius: 50%;
+}
+.conatiner .list .new_list .text p
+{
+    font-size: 14px;
+}
+.conatiner .list .new_list .del i
+{
+    font-size: 14px;
+    cursor: pointer;
+    color: crimson;
+}
