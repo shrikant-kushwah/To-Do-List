@@ -14,7 +14,7 @@ document.querySelector(".add").onclick = function()
             <input type="checkbox" id="checkbox">
         </div>
         <div class="text">
-            <p>${Task}</p>
+            <p>${task}</p>
         </div>
         <div class="del">
             <i class="fa-regular fa-x"></i>
